@@ -8,7 +8,7 @@ A top-down slasher survival game in plain HTML5 canvas and JavaScript. It has no
 cd "The Halloween Game" && python3 -m http.server 8731
 ```
 
-Then open http://localhost:8731. Click once so the browser allows audio.
+Play: (https://spud88-stack.github.io/All-Hallow-s-Night/)
 
 ## Modes
 | Killer | Map | Playstyle |
