@@ -8,7 +8,7 @@ A top-down slasher survival game in plain HTML5 canvas and JavaScript. It has no
 cd "The Halloween Game" && python3 -m http.server 8731
 ```
 
-Play: (https://spud88-stack.github.io/All-Hallow-s-Night/)
+Then open http://localhost:8731. Click once so the browser allows audio.
 
 ## Modes
 | Killer | Map | Playstyle |
@@ -16,6 +16,15 @@ Play: (https://spud88-stack.github.io/All-Hallow-s-Night/)
 | **The Shape** (Michael Myers) | Haddonfield suburb + cemetery | Stalks from the dark to feed on your fear. Cuts power and phone lines, hides in closets to ambush you, moves faster when you aren't looking, and can grab you when your fear peaks. |
 | **Jason** | Camp Crystal Lake | A brute who smashes doors. Shifts through the woods to get ahead of you, senses you when you're terrified, and kills the generator. |
 | **Ghostface** | Woodsboro + a house party | Fast, with sprint-lunges. Calls you on the phone (answering gives away where you are), and hides in shadow until he's close. Keep your flashlight on him to expose him. |
+| **Freddy** | Elm Street, Springwood | He only exists in your dreams. A DROWSY meter fills in the dark, when you stand still, and fastest while you hide. Fall asleep and the street becomes a warped red nightmare. Wake up by ringing an alarm clock on a nightstand, by outlasting the dream, or sometimes from pain. Neighbors who are asleep die in their dreams. Coffee, candy and running keep you awake. |
+| **Leatherface** | A Texas farm with cornfields | You hear the chainsaw from far off. He revs, charges, cuts through doors, then the saw stalls and he takes double damage. Corn blocks sight beyond about a tile, so it's a great place to hide, but it's slow and rustles. |
+| **Chucky** | Lakeshore, Chicago | A killer doll that freezes whenever you look at him and moves when you don't. Fourteen decoy dolls are scattered around, and inspecting the wrong one is a bad idea. He scurries under furniture and taunts you from the dark. |
+
+## Extras
+- **Firecrackers (T):** throw them to make a racket somewhere else, and the killer goes to investigate.
+- **Revolver:** take it from a fallen officer, equip it, and click to fire. It staggers the killer but is loud.
+- **Records:** each killer's card on the menu shows your escapes, deaths and best time. There's also a **Random** killer option.
+- **Tips:** short hints appear the first time something matters.
 
 ## Systems
 - **Fear.** Darkness, sightings, bodies, screams and being watched raise it. High fear causes a shaking flashlight, slower stamina, tunnel vision, audible breathing while hiding, and panic stumbles. The killer gains power from your fear.
